@@ -10,7 +10,7 @@ body {
   }
 
   .logo{
-    height: 200px;
+    height: 400px;
   }
   
   .container {
@@ -440,3 +440,22 @@ body {
     display: none;
 }
 /* Remove seta padrão do IE*/
+
+
+.tabela-logos-IA {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-referencia {
+  display: block;        /* quebra de linha */
+  margin-top: 20px;      /* espaçamento opcional */
+  color: #0645ad;        /* azul típico de links */
+  text-decoration: none; /* remove sublinhado */
+  font-size: 16px;
+}
+
+.link-referencia:hover {
+  text-decoration: underline;
+  color: #0b0080;
+}
